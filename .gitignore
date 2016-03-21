@@ -6,3 +6,6 @@ Desktop.ini
 # Vim
 *.swp
 *.swo
+
+# Ctags
+.tags
