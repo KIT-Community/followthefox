@@ -1,0 +1,8 @@
+# OS Garbage
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Vim
+*.swp
+*.swo
