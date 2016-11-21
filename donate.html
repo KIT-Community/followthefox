@@ -1,0 +1,106 @@
+<!doctype html>
+<html
+  <head>
+    <title>Donate | Kern Innovation & Technology Community</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="The KIT community supports and
+    promotes innovation and technology in Kern County in a movement led by
+    entrepreneurs.">
+    <meta name="keywords" content="KIT Community, KIT, Kern County,
+    Bakersfield, Innovation, Startup, Tech sector, Technology,
+    programming, classes">
+    <meta name="author" content="Kern Innovation and Technology Community">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.5/bootstrap-notify.min.js"></script>
+    <script src="https://checkout.stripe.com/checkout.js"></script>
+    <script src="https://patchwork.mershonenterprises.com/api/platforms.js"></script>
+    <style type="text/css">
+      body {
+        background-color: #4686a0;
+        color: #fff;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        font-weight: 300;
+      }
+      #header-image {
+        margin-top: 112px;
+      }
+      h1 {
+        font-size: 1.75em;
+        font-weight: 300;
+        text-align: center;
+      }
+    </style>
+    <script type="text/javascript">
+      Patchwork.init({
+        accountId: "5MFPllJqP4ZLoDdTEhMGjXhQZ8y2",
+        apiKey: "gHt8uTLn0TNXLNUn5m8nwFGrTGgae6jvKGrhXC3uX5pCRPGGUxGk2caRz8qkKzcTDZJdwZGykWxPsxRr"
+      });
+
+      var STRIPE_PLATFORM_ID = 16;
+      Patchwork.callPlatformMethod({
+        platformId: STRIPE_PLATFORM_ID,
+        method: "button",
+        action: "GET",
+        params: {}
+      }).then(function(responseJavascript) {
+        eval(responseJavascript);
+        PatchworkStripeButton.init(STRIPE_PLATFORM_ID, function() {
+          $.notify({
+            message: "Thank you for your donation! Please check your email for confirmation.",
+            icon: "glyphicon glypicon-money"
+          }, {
+            type: "info"
+          });
+        });
+
+
+        // create a One-Time Donations payment button with flexible amount
+        var buttonHTML = PatchworkStripeButton.createButton({
+          buttonId:              "donation-button",
+          label:                 "Donate to KIT",
+          classes:               "btn btn-success btn-block",
+          name:                  "One-Time Donation",
+          description:           "Donate to Kern Innovation & Technology",
+          amount:                1000,
+          requireBillingAddress: true,
+          panelLabel:            "Donate {{amount}}",
+          mode:                  "charge",
+        });
+        document.getElementById("donations-container").innerHTML += buttonHTML;
+
+        $("#donation-amount").bind("input", function() {
+          var amount = $(this).val();
+          // GOTCHA -- Stripe requires cents, not dollars
+          $("#donation-button").attr("data-amount", String(Number(amount)*100));
+        });
+
+      });
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-xs-12">
+        <img class="img-responsive center-block" id="header-image" src="images/Kitlogo2.png" alt="KIT logo" />
+      </div>
+    </div>
+    <div class="row">
+      <h1 class="col-xs-12">Donate to KIT</h1>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4" id="donations-container">
+        <label for="donation-amount">Amount:</label>
+        <input class="form-control" type="number" id="donation-amount" value="0" step="5" min="0" />
+        <br/>
+        <!-- injected by Javascript -->
+      </div>
+    </div>
+  </body>
+</html>
