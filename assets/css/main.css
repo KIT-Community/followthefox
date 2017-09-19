@@ -1842,7 +1842,7 @@
 	p {
 		margin: 0 0 1em 0;
 	}
-	
+
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #555;
@@ -2418,7 +2418,7 @@
 				}
 
 					ul.major-icons li .icon:before {
-						
+
 						display: inline-block;
 						line-height: inherit;
 					}
@@ -2464,11 +2464,11 @@
 					padding-top: 0;
 				}
 ul.action.uniform {
-	list-style-type: none; 
+	list-style-type: none;
 }
 			ul.actions.uniform li > * {
 				min-width: 12em;
-				
+
 			}
 
 			ul.actions.fit {
@@ -3112,7 +3112,7 @@ ul.action.uniform {
 background: #517fa4; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #517fa4 , #243949); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #517fa4 , #243949); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+
 				}
 				section#four img {
 					margin: 0 auto
@@ -3125,7 +3125,7 @@ background: linear-gradient(to left, #517fa4 , #243949); /* W3C, IE 10+/ Edge, F
 					background: -webkit-linear-gradient(right, #525252, #3d72b4);
 					background: -o-linear-gradient(right, #525252, #3d72b4);
 					background: linear-gradient(to left, #525252, #3d72b4); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-					}	
+					}
 					section#footer {
 						padding-bottom: 1em;
 						padding-top: 2em;
@@ -3481,3 +3481,7 @@ background: linear-gradient(to left, #517fa4 , #243949); /* W3C, IE 10+/ Edge, F
 			}
 
 	}
+
+.margin-top {
+  margin-top: 30px;
+}
