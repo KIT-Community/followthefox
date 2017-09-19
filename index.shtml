@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kern Innovation & Technology Community</title>
+    <!--#include virtual="header_includes.html" -->
+	</head>
+	<body>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5JN8RT"
+        height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5JN8RT');</script>
+  <!-- End Google Tag Manager -->
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+				<img src="images/Kitlogo2.png" alt="KIT Logo" />
+					<!-- <span class="icon major fa-cog"></span> -->
+					<h1>Kern Innovation & Technology Community is...</h1>
+					<p>Bringing people together and growing the tech sector of Kern County</p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Follow the Fox</a></li>
+					</ul>
+				</div>
+			</section>
+
+      <!--#include virtual="events/20171013_ihope_hackathon.html" -->
+
+
+		<!-- Two -->
+			<section id="two" class="main style2">
+				<div class="container">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+							<ul class="major-icons">
+							<li><span class="icon style7 major fa-users"></span></li>
+							<li><span class="icon style7 major fa-university"></span></li>
+							<li><span class="icon style7 major fa-briefcase"></span></li>
+								<li><span class="icon style7 major fa-flask"></span></li>
+
+
+
+							</ul>
+						</div>
+						<div class="6u$ 12u$(medium)">
+							<header class="major">
+								<h2>About the KIT Community</h2>
+								<h3>Supporting and Promoting Innovation in Kern County</h3>
+							</header>
+							<p>KIT Community is a local community organization building a tech
+              community in Kern County. We are the "Bakersfield Sound" of
+              technology, creating opportunity through innovation. KIT was
+              founded in February 2016 in Bakersfield by entrepreneur Alyssa Haerle, who dreamed the dream of all the tech entrepreneurs in town...that some day our tech ecosystem would be thriving and able to provide opportunities for local talent who otherwise leave.</p>
+							<p>This community supports and promote innovation and technology in Kern County in a movement led by entrepreneurs. We will build an active, prosperous tech and innovation community in Kern County. We will also develop a trained and experienced core of technology talent in Kern County that can stay and thrive.</p>
+							<p>If you agree, follow the fox to a future where Kern County comes to mean innovation and promise to anyone who asks.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="main style1 special">
+				<div class="container">
+
+
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="images/volunteer.jpg" alt="" /></span>
+							<h3>Upcoming Events</h3>
+							<p>We offer a variety of events that range from socially minded technology competitions, educational workshops, collaborative meetups, and networking opportunities.</p>
+							<ul class="actions">
+								<li><a
+                  href="http://www.eventbrite.com/o/kern-innovation-amp-technology-community-9900375885"
+                  target="_blank" class="button">View Events</a></li>
+							</ul>
+						</div>
+
+						<div class="4u 12u$(medium)">
+						<a class="twitter-timeline" href="https://twitter.com/KITcommunity"
+              target="_blank" data-widget-id="707377220449251329">Tweets by @KITcommunity</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<span class="image fit"><img src="images/tech-child.jpg" alt="" /></span>
+							<h3>Tech in the Community</h3>
+							<p>See what is happening in the community</p>
+							<ul class="actions">
+								<li><a href="https://www.flickr.com/photos/141401964@N02"
+                  target="_blank" class="button">View Gallery</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+<!-- Four -->
+			<section id="four" class="main style2 special sponsors">
+				<div class="container">
+					<header class="major">
+						<h2>Sponsors</h2>
+            <br/>
+            <h4 class="12u$ text-center">KIT is a project of <a href="http://saveourplanet.org/projects/kit-community/" target="_blank">Social and Environment Entrepreneurs</a></h4>
+					</header>
+					<div class="row 150%">
+            <div class="4u 12u$(medium)">
+              <a href="http://www.meshcowork.com" target="_blank">
+                <img src="images/meshcowork-logo.png" alt="Bakersfield's premier coworking space" />
+                <p class="sponsor-name">Mesh Cowork</p>
+                <p class="sponsor-desc">Startup Focused Coworking Space</p>
+              </a>
+            </div>
+            <div class="4u 12u$(medium)">
+              <a href="https://mershon.enterprises/" target="_blank">
+                <img src="images/mec-logo.png" alt="Mershon Enterprises - A Bakersfield Software Company" />
+                <p class="sponsor-name">Mershon Enterprises</p>
+                <p class="sponsor-desc">Custom Software Consulting</p>
+              </a>
+              </div>
+              <div class="4u 12u$(medium)">
+              <a href="http://idi-tech.com/" target="_blank">
+                <img src="images/iditechlogo.jpg" alt="IDI-TECH - A Bakersfield IT Company" />
+                <p class="sponsor-name">IDI-TECH</p>
+                <p class="sponsor-desc">IT Services</p>
+              </a>
+          </div>
+      </div>
+      <div class="row 150%" style="margin-top: 10px;">
+            <div class="6u 12u$(medium)">
+              <a href="http://www.ideatailors.biz" target="_blank">
+                <img src="images/IdeaTailors-Logo.png" alt="Tailoring your marketing ideas" />
+                <p class="sponsor-name">Idea Tailors</p>
+                <p class="sponsor-desc">Marketing Consulting</p>
+              </a>
+            </div>
+            <div class="6u$ 12u$(medium)">
+              <a href="http://creativecowork.com/" target="_blank">
+                <img src="images/creative-cowork-logo.png" alt="Coworking for makers and creators" />
+                <p class="sponsor-name">Creative Cowork</p>
+                <p class="sponsor-desc">Creative Focused Coworking Space</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--#include virtual="footer.html" -->
+
+	</body>
+</html>

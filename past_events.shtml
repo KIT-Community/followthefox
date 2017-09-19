@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Past Events | Kern Innovation & Technology Community</title>
+    <!--#include virtual="header_includes.html" -->
+	</head>
+	<body>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5JN8RT"
+        height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5JN8RT');</script>
+  <!-- End Google Tag Manager -->
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+				<img src="images/Kitlogo2.png" alt="KIT Logo" />
+					<!-- <span class="icon major fa-cog"></span> -->
+					<h1>Kern Innovation & Technology Community is...</h1>
+					<p>Bringing people together and growing the tech sector of Kern County</p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Follow the Fox</a></li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- events go here -->
+      <!--#include virtual="events/20161108_electric_bookworm.html" -->
+      <!--#include virtual="events/20160805_tech_fighting_the_wildfires.html" -->
+      <!--#include virtual="events/20160610_classroom_kit.html" -->
+      <!--#include virtual="events/20160408_distill_your_idea.html" -->
+
+      <!--#include virtual="footer.html" -->
+
+	</body>
+</html>
