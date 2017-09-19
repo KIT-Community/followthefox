@@ -30,6 +30,7 @@
 			</section>
 
 			<!-- events go here -->
+      <!--#include virtual="events/20170317_public_health_renegades.html" -->
       <!--#include virtual="events/20161108_electric_bookworm.html" -->
       <!--#include virtual="events/20160805_tech_fighting_the_wildfires.html" -->
       <!--#include virtual="events/20160610_classroom_kit.html" -->
