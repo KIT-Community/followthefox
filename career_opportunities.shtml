@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Career Opportunities | Kern Innovation & Technology Community</title>
+    <!--#include virtual="header_includes.html" -->
+	</head>
+	<body>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5JN8RT"
+        height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5JN8RT');</script>
+  <!-- End Google Tag Manager -->
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+				<img src="images/Kitlogo2.png" alt="KIT Logo" />
+					<!-- <span class="icon major fa-cog"></span> -->
+					<h1>Kern Innovation & Technology Community is...</h1>
+					<p>Bringing people together and growing the tech sector of Kern County</p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Follow the Fox</a></li>
+					</ul>
+				</div>
+			</section>
+
+
+      <section class="main style1 special">
+        <div class="container">
+          <header class="major">
+            <h2>Career Opportunities</h2>
+          </header>
+          <div class="row">
+
+            <!-- jobs go here -->
+            <div class="col-xs-12 col-sm-6 col-md-4 btn btn-clear">
+              <div class="col-xs-12 text-center">
+                <i class="fa fa-file" style="font-size: 128px;"></i>
+              </div>
+              <div class="col-xs-12">
+                <h4>Theta Oilfield Services<br/>
+                  (Dover Energy Automation)
+                </h4>
+                <h5>Software Support Technician</h5>
+                <p>Posted: 08/24/2017<br/>Bakersfield, CA</p>
+              </div>
+              <a class="col-xs-12 btn btn-primary"
+                 href="https://www.linkedin.com/jobs/view/431661170/" target="_blank">
+                View Job Detais
+              </a>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 btn btn-clear">
+              <div class="col-xs-12 text-center">
+                <i class="fa fa-file" style="font-size: 128px;"></i>
+              </div>
+              <div class="col-xs-12">
+                <h4>Western Pacific Research</h4>
+                <h5>Database Administrator</h5>
+                <p>Posted: 07/28/2017<br/>Bakersfield, CA</p>
+              </div>
+              <a class="col-xs-12 btn btn-primary"
+                 href="careers/20170728_western_pacific_research_database_administrator.pdf" target="_blank">
+                View Job Detais
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <!--#include virtual="footer.html" -->
+
+	</body>
+</html>
