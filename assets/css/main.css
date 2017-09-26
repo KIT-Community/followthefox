@@ -3485,3 +3485,7 @@ background: linear-gradient(to left, #517fa4 , #243949); /* W3C, IE 10+/ Edge, F
 .margin-top {
   margin-top: 30px;
 }
+
+.row.jobs div {
+  margin-top: 30px;
+}

@@ -35,9 +35,38 @@
           <header class="major">
             <h2>Career Opportunities</h2>
           </header>
-          <div class="row">
+          <div class="row jobs">
 
             <!-- jobs go here -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="col-xs-12 text-center">
+                <i class="fa fa-file" style="font-size: 128px;"></i>
+              </div>
+              <div class="col-xs-12 text-center">
+                <h4>City of Bakersfield</h4>
+                <h5>Information Technology Supervisor</h5>
+                <p>Posted: 09/26/2017<br/>Bakersfield, CA</p>
+              </div>
+              <a class="col-xs-12 btn btn-primary"
+                 href="http://agency.governmentjobs.com/bakersfield/default.cfm?action=viewJob&jobID=1848291" target="_blank">
+                View Job Details
+              </a>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="col-xs-12 text-center">
+                <i class="fa fa-file" style="font-size: 128px;"></i>
+              </div>
+              <div class="col-xs-12 text-center">
+                <h4>City of Bakersfield</h4>
+                <h5>Technology Services Analyst</h5>
+                <p>Posted: 09/26/2017<br/>Bakersfield, CA</p>
+              </div>
+              <a class="col-xs-12 btn btn-primary"
+                 href="http://agency.governmentjobs.com/bakersfield/default.cfm?action=viewJob&jobID=1856139" target="_blank">
+                View Job Details
+              </a>
+            </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="col-xs-12 text-center">
@@ -84,9 +113,6 @@
               </a>
             </div>
 
-          </div>
-          <div class="row margin-top">
-
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="col-xs-12 text-center">
                 <i class="fa fa-file" style="font-size: 128px;"></i>
@@ -131,9 +157,6 @@
                 View Job Details
               </a>
             </div>
-
-          </div>
-          <div class="row margin-top">
 
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="col-xs-12 text-center">
